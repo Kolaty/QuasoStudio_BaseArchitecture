@@ -42,3 +42,30 @@ Follow these steps to include this package in your Unity project:
            "com.unity.inputsystem": "1.5.1"
        }
    }
+
+## 📜 License
+This project is licensed under the MIT License. See the LICENSE.md file for more details.
+
+## 📖 Documentation
+Full documentation for this package can be found at:
+
+Online Documentation (replace with the actual link)
+Or in the README.md file included in the package.
+## ✨ Credits
+Author: Alexandre CUXAC
+Studio: Quaso Studio
+Contact: contact@quasostudio.com
+## 🔄 Changelog
+See the CHANGELOG.md file for a history of updates and improvements.
+
+## ❤️ Contributions
+Contributions are welcome! If you'd like to contribute to this project:
+
+Fork this repository.
+Create a feature branch: git checkout -b feature/my-new-feature.
+Commit your changes: git commit -m "Add some feature".
+Push to the branch: git push origin feature/my-new-feature.
+Open a pull request.
+
+## 🛠️ Support
+If you encounter any issues or have questions about this package, feel free to open an issue in the GitHub Issues tab (replace with your GitHub issues link).
