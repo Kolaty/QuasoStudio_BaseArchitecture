@@ -55,7 +55,7 @@ For more details, see Unity's guide on [Adding a package from a Git URL](https:/
         "com.unity.inputsystem": "1.5.1"
     }
 }
-
+'''json
 ---
 
 ## 📜 License
