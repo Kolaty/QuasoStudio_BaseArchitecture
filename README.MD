@@ -41,19 +41,21 @@ To add this package via Git, follow these steps:
 
 For more details, see Unity's guide on [Adding a package from a Git URL](https://docs.unity3d.com/2020.1/Documentation/Manual/upm-ui-giturl.html).
 
+---
+
 ### Option 2: Manual Installation
 1. Clone or download this repository to your local machine.
 2. Copy the package folder `BaseArchitectureQuasoStudio` into your Unity project's `Packages/` folder.
 3. Add the package reference to your `manifest.json` file:
+```json
+{
+    "dependencies": {
+        "com.quasostudio.basearchitecture": "file:./Packages/BaseArchitectureQuasoStudio",
+        "com.unity.cinemachine": "2.9.7",
+        "com.unity.inputsystem": "1.5.1"
+    }
+}
 
-  ```json
-  {
-      "dependencies": {
-          "com.quasostudio.basearchitecture": "file:./Packages/BaseArchitectureQuasoStudio",
-          "com.unity.cinemachine": "2.9.7",
-          "com.unity.inputsystem": "1.5.1"
-      }
-  }
 
 ## 📜 License
 This project is licensed under the MIT License. See the LICENSE.md file for more details.
