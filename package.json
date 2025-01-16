@@ -1,0 +1,25 @@
+{
+  "name": "com.quasostudio.basearchitecture",
+  "version": "1.0.0",
+  "displayName": "Base Architecture",
+  "description": "Base architecture for Quaso Studio, we have support for scene transitions with diverse services (sound via FMOD, game manager, level service, spawn service, time service, UI service, and update service). Et le oink du shader psx",
+  "unity": "2021.3",
+  "unityRelease": "45f1",
+  "dependencies": {
+      "com.unity.cinemachine": "2.10.3", 
+      "com.unity.inputsystem": "1.7.0"
+  },
+  "keywords": [
+      "Quaso Studio",
+      "Base Architecture",
+      "Cinemachine",
+      "FMOD",
+      "Input System",
+      "PSX Shader"
+  ],
+  "author": {
+      "name": "Alexandre CUXAC",
+      "email": "contact@quasostudio.com",
+      "url": "https://www.QuasoStudio.com"
+  }
+}

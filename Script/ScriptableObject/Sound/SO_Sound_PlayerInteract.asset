@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2301b6cce2a5b2b45934cb551a0c2288, type: 3}
+  m_Name: SO_Sound_PlayerInteract
+  m_EditorClassIdentifier: 
+  _soundName: PlayerInteract
+  _eventReference:
+    Guid:
+      Data1: 221938776
+      Data2: 1134390120
+      Data3: -24116338
+      Data4: 221663516
+    Path: event:/PlayerInteract

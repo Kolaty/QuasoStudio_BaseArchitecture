@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec2273c965b8c4759b563d9909d23c34, type: 3}
+  m_Name: SO_InputReader
+  m_EditorClassIdentifier: 
+  asset: {fileID: -944628639613478452, guid: 75812e3f9279d4138b8ad3ff0c3573b2, type: 3}
