@@ -46,7 +46,7 @@ For more details, see Unity's guide on [Adding a package from a Git URL](https:/
 2. Copy the package folder `BaseArchitectureQuasoStudio` into your Unity project's `Packages/` folder.
 3. Add the package reference to your `manifest.json` file:
 
-json
+'''json
 {
     "dependencies": {
         "com.quasostudio.basearchitecture": "file:./Packages/BaseArchitectureQuasoStudio",
