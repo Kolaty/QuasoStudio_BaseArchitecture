@@ -46,14 +46,14 @@ For more details, see Unity's guide on [Adding a package from a Git URL](https:/
 2. Copy the package folder `BaseArchitectureQuasoStudio` into your Unity project's `Packages/` folder.
 3. Add the package reference to your `manifest.json` file:
 
-'''json
-{
-    "dependencies": {
-        "com.quasostudio.basearchitecture": "file:./Packages/BaseArchitectureQuasoStudio",
-        "com.unity.cinemachine": "2.9.7",
-        "com.unity.inputsystem": "1.5.1"
-    }
-}
+  ```json
+  {
+      "dependencies": {
+          "com.quasostudio.basearchitecture": "file:./Packages/BaseArchitectureQuasoStudio",
+          "com.unity.cinemachine": "2.9.7",
+          "com.unity.inputsystem": "1.5.1"
+      }
+  }
 
 ## 📜 License
 This project is licensed under the MIT License. See the LICENSE.md file for more details.
