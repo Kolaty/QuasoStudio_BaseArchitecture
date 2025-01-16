@@ -56,6 +56,7 @@ For more details, see Unity's guide on [Adding a package from a Git URL](https:/
     }
 }
 
+---
 
 ## 📜 License
 This project is licensed under the MIT License. See the LICENSE.md file for more details.
