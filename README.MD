@@ -1,6 +1,6 @@
 # QuasoStudio_BaseArchitecture
 
-Base architecture for an FPS project with a PSX-style aesthetic, designed to streamline game development by providing essential tools and services. This package supports scene transitions, audio management, and various gameplay systems tailored for retro-style FPS games.
+Base architecture for an FPS project with a PSX-style aesthetic, designed to streamline game development by providing essential tools and services. This package supports scene transitions, audio management, AI systems, and various gameplay systems tailored for retro-style FPS games.
 
 ---
 
@@ -14,6 +14,11 @@ This package includes the following features:
 - **UI Service**: Simplifies UI updates and interactions.
 - **Update Service**: Centralized update system for improved performance.
 - **FMOD Integration**: Advanced audio capabilities via FMOD for Unity.
+- **AI Base System**:
+  - **AI Sensor**: 
+    - Minimal detection system with customizable occlusion and range checks.
+    - Supports detection based on custom meshes.
+    - Includes debug tools for visualization of detection zones and targets.
 
 ---
 
@@ -43,10 +48,10 @@ For more details, see Unity's guide on [Adding a package from a Git URL](https:/
 
 ---
 
-### Option 2: Installation manuelle
-1. Clonez ou téléchargez ce repository sur votre machine locale.
-2. Copiez le dossier du package `BaseArchitectureQuasoStudio` dans le dossier `Packages/` de votre projet Unity.
-3. Ajoutez la référence du package dans votre fichier `manifest.json` :
+### Option 2: Manual Installation
+1. Clone or download this repository to your local machine.
+2. Copy the package folder `BaseArchitectureQuasoStudio` into your Unity project's `Packages/` folder.
+3. Add the package reference to your `manifest.json` file:
    
    ```json
    {
