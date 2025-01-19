@@ -69,7 +69,9 @@ Online Documentation (replace with the actual link)
 Or in the README.md file included in the package.
 ## ✨ Credits
 Author: Alexandre CUXAC
+
 Studio: Quaso Studio
+
 Contact: contact@quasostudio.com
 ## 🔄 Changelog
 See the CHANGELOG.md file for a history of updates and improvements.
