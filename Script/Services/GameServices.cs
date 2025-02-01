@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace R_D_2.Script.Services
+namespace QuasoStudio.Services
 {
     public class GameServices : MonoBehaviour, INeedLevelUpdate
     {
