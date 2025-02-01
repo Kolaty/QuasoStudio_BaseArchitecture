@@ -1,8 +1,8 @@
 using UnityEngine;
-using R_D_2.Script.Interfaces;
-using R_D_2.Script.Input;
+using QuasoStudio.Interfaces;
+using QuasoStudio.Input;
 
-namespace R_D_2.Script.Player
+namespace QuasoStudio.Player
 {
     public class Movement : IFixedUpdateServices
     {
