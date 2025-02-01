@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace R_D_2.Script.Services
+namespace QuasoStudio.Services
 {
     public class LevelService
     {
