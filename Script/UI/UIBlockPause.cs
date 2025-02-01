@@ -1,8 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
-using R_D_2.Script.Services;
-using R_D_2.Script.Input;
-using R_D_2.Script.Player;
+using QuasoStudio.Services;
+using QuasoStudio.Input;
+using QuasoStudio.Player;
+
 public class UIBlockPause : MonoBehaviour
 {
     [SerializeField, Tooltip("resume button of main menu required.")] private Button resumeButton;
