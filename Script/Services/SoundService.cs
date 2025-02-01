@@ -2,7 +2,7 @@ using FMODUnity;
 using FMOD.Studio;
 using System.Collections.Generic;
 
-namespace R_D_2.Script.Services
+namespace QuasoStudio.Services
 {
     public class SoundService
     {
