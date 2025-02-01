@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
-using R_D_2.Script.Services;
+using QuasoStudio.Services;
 
 public class UIBlockMainMenu : MonoBehaviour
 {
