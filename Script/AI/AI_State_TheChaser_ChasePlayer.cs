@@ -1,11 +1,11 @@
 using UnityEngine;
-using R_D_2.Script.Interfaces;
+using QuasoStudio.Interfaces;
 using UnityEngine.AI;
-using R_D_2.Script.Services;
+using QuasoStudio.Services;
 using System.Collections.Generic;
 
 
-namespace R_D_2.Script.AI
+namespace QuasoStudio.AI
 {
     public class AI_State_TheChaser_ChasePlayer : AI_BaseState, IUpdateServices, IIsPlayerIsInSight
     {
