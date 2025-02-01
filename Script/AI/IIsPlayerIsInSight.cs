@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
-using R_D_2.Script.AI;
+using QuasoStudio.AI;
 
-namespace R_D_2.Script.Interfaces
+namespace QuasoStudio.Interfaces
 {
     public interface IIsPlayerIsInSight
     {
