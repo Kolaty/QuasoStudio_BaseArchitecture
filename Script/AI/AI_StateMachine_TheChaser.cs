@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine.AI;
 
-namespace R_D_2.Script.AI
+namespace QuasoStudio.AI
 {
     public class AI_StateMachine_TheChaser
     {
