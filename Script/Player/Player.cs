@@ -1,10 +1,10 @@
 using Cinemachine;
-using R_D_2.Script.Input;
-using R_D_2.Script.Interfaces;
-using R_D_2.Script.Services;
+using QuasoStudio.Input;
+using QuasoStudio.Interfaces;
+using QuasoStudio.Services;
 using UnityEngine;
 
-namespace R_D_2.Script.Player
+namespace QuasoStudio.Player
 {
     public class Player : MonoBehaviour, IFixedUpdateServices
     {
