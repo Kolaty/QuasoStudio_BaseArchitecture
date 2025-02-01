@@ -1,8 +1,8 @@
-using R_D_2.Script.Services;
+using QuasoStudio.Services;
 using UnityEngine;
 using UnityEngine.AI;
 
-namespace R_D_2.Script.AI
+namespace QuasoStudio.AI
 {
     [RequireComponent(typeof(NavMeshAgent))]
     [RequireComponent(typeof(AI_Sensor))]
