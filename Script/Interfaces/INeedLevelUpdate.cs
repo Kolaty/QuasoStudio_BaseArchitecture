@@ -1,4 +1,7 @@
-public interface INeedLevelUpdate 
+namespace QuasoStudio.Interface
 {
-    public void UpdateLevelInformation();
+    public interface INeedLevelUpdate 
+    {
+        public void UpdateLevelInformation();
+    }
 }
