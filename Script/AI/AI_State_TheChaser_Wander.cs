@@ -1,10 +1,10 @@
 using UnityEngine;
-using R_D_2.Script.Interfaces;
+using QuasoStudio.Interfaces;
 using UnityEngine.AI;
-using R_D_2.Script.Services;
+using QuasoStudio.Services;
 using System.Collections.Generic;
 
-namespace R_D_2.Script.AI
+namespace QuasoStudio.AI
 {
     public class AI_State_TheChaser_Wander : AI_BaseState, IUpdateServices, IIsPlayerIsInSight
     {
@@ -32,7 +32,7 @@ namespace R_D_2.Script.AI
         public override void Enter()
         {
             GameServices.Instance.UpdateService.RegisterUpdateObserver(this);
-            FindNewDestination(); // Trouve une destination immédiatement
+            FindNewDestination(); // Trouve une destination immÃ©diatement
         }
 
         public override void Exit()
@@ -43,13 +43,13 @@ namespace R_D_2.Script.AI
         public void OnUpdate()
         {
             IsPlayerIsInSight(AI_Sensor.Objects, StateMachine, StateTheChaser.ChasePlayer);
-            // Vérifie si l'IA a atteint sa destination
+            // VÃ©rifie si l'IA a atteint sa destination
             if (!navMeshAgent.pathPending && navMeshAgent.remainingDistance <= navMeshAgent.stoppingDistance)
             {
                 if (!navMeshAgent.hasPath || navMeshAgent.velocity.sqrMagnitude == 0f)
                 {
                     // L'IA a atteint sa destination, cherche une nouvelle position
-                    lastPosition = transform.position; // Met à jour la dernière position
+                    lastPosition = transform.position; // Met Ã  jour la derniÃ¨re position
                     FindNewDestination();
 
                 }
@@ -91,7 +91,7 @@ namespace R_D_2.Script.AI
         {
             if (newPoint == Vector3.zero) return false;
 
-            // Vérifie la distance minimale
+            // VÃ©rifie la distance minimale
             float distance = Vector3.Distance(transform.position, newPoint);
             if (distance < minDistance)
                 return false;
@@ -100,7 +100,7 @@ namespace R_D_2.Script.AI
             Vector3 lastDirection = (lastPosition - transform.position).normalized;
             Vector3 newDirection = (newPoint - transform.position).normalized;
 
-            // Produit scalaire pour vérifier l'angle
+            // Produit scalaire pour vÃ©rifier l'angle
             float dot = Vector3.Dot(lastDirection, newDirection);
 
             return dot < dotThreshold;
