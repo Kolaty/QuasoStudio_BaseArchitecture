@@ -4,7 +4,7 @@ using UnityEngine;
 // Basic class juste for enable one script
 // perhaps for later it will be better 
 
-namespace R_D_2.Script.Player
+namespace QuasoStudio.Player
 {
     public class Look
     {
