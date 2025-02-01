@@ -1,13 +1,13 @@
 using System.Collections.Generic;
 using UnityEngine;
-using R_D_2.Script.Interfaces;
+using QuasoStudio.Interfaces;
 
 // AQCS : Création de la class qui va se charger de n'importe qu'elle type d'updates sur toutes les intances
 // qui en aurait besoin.
 // Travail en court : Aucun - Update mardi 14 janvier - Alexandre
 // Taff mardi 14 janvier : Le faire via un scriptable objet -> Non doit être une instance obligatoire
 
-namespace R_D_2.Script.Services
+namespace QuasoStudio.Services
 {
     public class UpdateService
     {
