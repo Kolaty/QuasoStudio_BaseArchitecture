@@ -1,4 +1,4 @@
-namespace R_D_2.Script.AI
+namespace QuasoStudio.AI
 {
     public abstract class AI_BaseState 
     {
