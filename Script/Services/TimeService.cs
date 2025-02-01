@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace R_D_2.Script.Services
+namespace QuasoStudio.Services
 {
     public class TimeService
     {
