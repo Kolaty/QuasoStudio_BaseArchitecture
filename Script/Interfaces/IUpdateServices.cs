@@ -1,4 +1,4 @@
-namespace R_D_2.Script.Interfaces
+namespace QuasoStudio.Interfaces
 {
     public interface IUpdateServices
     {
